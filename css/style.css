@@ -37,7 +37,7 @@
 .header__nav {
   position: relative;
   display: flex;
-  padding: 0 3.2rem;
+  padding: 0 1rem;
   height: 9.6rem;
   align-items: center;
 }
@@ -139,7 +139,7 @@
 
 .hero__img {
   height: 100%;
-  background-image: url("../content/img/photos/photo_2_2025-03-19_12-08-50.jpg");
+  background-image: url("../content/img/photos/main-picture.jpg");
 }
 
 /* SCROLL SECTION */
@@ -356,7 +356,7 @@
       rgba(13, 13, 13, 0.4),
       rgba(13, 13, 13, 0.4)
     ),
-    url("../content/img/includes/plan.jpg");
+    url("../content/img/includes/photo2.jpg");
 }
 
 .include--second {
@@ -365,7 +365,7 @@
       rgba(13, 13, 13, 0.4),
       rgba(13, 13, 13, 0.4)
     ),
-    url("../content/img/includes/zoom.jpg");
+    url("../content/img/includes/photo1.jpg");
 }
 
 .include--third {
@@ -374,7 +374,7 @@
       rgba(13, 13, 13, 0.4),
       rgba(13, 13, 13, 0.4)
     ),
-    url("../content/img/includes/prize.jpg");
+    url("../content/img/includes/photo3.jpg");
 }
 
 .include--fourth {
@@ -383,7 +383,7 @@
       rgba(13, 13, 13, 0.4),
       rgba(13, 13, 13, 0.4)
     ),
-    url("../content/img/includes/feedback.jpg");
+    url("../content/img/includes/photo4.jpg");
 }
 
 .include--fifth {
@@ -392,7 +392,7 @@
       rgba(13, 13, 13, 0.4),
       rgba(13, 13, 13, 0.4)
     ),
-    url("../content/img/includes/bonus.jpg");
+    url("../content/img/includes/photo5.jpg");
 }
 
 .includes__btn {
@@ -587,7 +587,7 @@
   font-weight: inherit;
   letter-spacing: 0.5px;
   font-style: italic;
-  font-size: 8.6rem;
+  font-size: 6rem;
   color: #1c1c1c;
 
   margin-top: auto;

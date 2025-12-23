@@ -476,3 +476,20 @@ closeMobile.addEventListener("click", () => {
   closeMobile.classList.add("remove");
   openMobile.classList.remove("remove");
 });
+
+const langButtons = document.querySelectorAll(".nav__lang-btn");
+
+langButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    const lang = btn.dataset.lang;
+
+    if (lang === "en") {
+      window.location.href = "/index-en.html";
+    }
+
+    if (lang === "uk") {
+      window.location.href = "/index.html";
+    }
+  });
+});
+

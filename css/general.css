@@ -120,12 +120,26 @@ body {
 
 /* HEADINGS */
 .subheading {
-  color: #3d3d3d;
-  font-size: 1.8rem;
+  color: #363636;
+  font-size: 2.2rem;
+
   letter-spacing: 0.5px;
+  font-weight: 600;
+  margin-bottom: 3rem;
   text-transform: uppercase;
-  margin-bottom: 4.8rem;
 }
+
+
+.nav__lang-btn {
+  padding: 2px 10px;
+  border: none;
+  background-color: #1c1c1c;
+  color: #c7c7c7;
+  border-radius: .5rem;
+  margin-top: 2rem;
+
+}
+
 
 .header--secondary {
   font-family: var(--serif);
@@ -160,4 +174,8 @@ body {
 
 .remove {
   display: none;
+}
+
+.nav__lang-sep {
+  font-size: 2rem;
 }

@@ -22,7 +22,7 @@
   }
 
   .footer__name {
-    font-size: 6.2rem;
+    font-size: 5rem;
   }
 }
 
@@ -124,7 +124,7 @@
         rgba(28, 28, 28, 0.2),
         var(--color-primary-opacity)
       ),
-      url("../content/img/photos/photo_2_2025-03-19_12-08-50.jpg");
+      url("../content/img/photos/main-picture.jpg");
     background-size: cover;
     background-position: right center;
   }
@@ -143,9 +143,10 @@
   }
 
   .hero .subheading {
-    color: #c7c7c7;
+    color: white;
     font-size: 2rem;
-    margin-bottom: 6.4rem;
+    letter-spacing: normal;
+    margin-bottom: 25rem;
   }
 
   .hero__img {
@@ -154,8 +155,8 @@
 
   .hero .btn {
     border-bottom: 1px solid transparent;
-    background-color: var(--color-primary);
-    color: #fcebeb;
+    background-color: #daddd8;
+    color: black;
     padding: 1rem 2rem;
     border-radius: 0.2rem;
   }
@@ -167,7 +168,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 55rem;
+    height: 65rem;
     transform: translateY(-100%);
 
     flex-direction: column;
@@ -184,6 +185,15 @@
   .btn--sm {
     font-size: 2.4rem;
     padding: 1rem 3.2rem;
+  }
+
+  .nav__lang-btn {
+    padding: 2px 10px;
+    border: none;
+    background-color: #c7c7c7;
+    color: #1c1c1c;
+    border-radius: .5rem;
+    margin-top: 2rem;
   }
 
   .nav-open .nav__list {
