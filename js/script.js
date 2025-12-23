@@ -484,11 +484,11 @@ langButtons.forEach(btn => {
     const lang = btn.dataset.lang;
 
     if (lang === "en") {
-      window.location.href = "/index-en.html";
+      window.location.href = "index-en.html";
     }
 
     if (lang === "uk") {
-      window.location.href = "/index.html";
+      window.location.href = "index.html";
     }
   });
 });
