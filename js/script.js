@@ -480,16 +480,17 @@ closeMobile.addEventListener("click", () => {
 const langButtons = document.querySelectorAll(".nav__lang-btn");
 
 langButtons.forEach(btn => {
-  btn.addEventListener("click", () => {
+  btn.addEventListener("click", (e) => {
+    e.preventDefault(); // ← THIS is the key fix
+
     const lang = btn.dataset.lang;
 
     if (lang === "en") {
       window.location.href = "index-en.html";
-    }
-
-    if (lang === "uk") {
+    } else {
       window.location.href = "index.html";
     }
   });
 });
+
 
